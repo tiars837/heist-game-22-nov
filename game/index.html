@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Midnight Vault — a one-room heist</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #070a12;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+  #wrap {
+    width: 1280px;
+  }
+  canvas {
+    display: block;
+    width: 1280px;
+    height: 480px;
+    background: #10141f;
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="480"></canvas>
+</div>
+<script src="src/config.js"></script>
+<script src="src/rng.js"></script>
+<script src="src/level.js"></script>
+<script src="src/guards.js"></script>
+<script src="src/cameras.js"></script>
+<script src="src/player.js"></script>
+<script src="src/tools.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/render.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
